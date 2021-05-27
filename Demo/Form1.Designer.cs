@@ -40,12 +40,15 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Location = new System.Drawing.Point(0, -1);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1069, 710);
+            this.tabControl1.Size = new System.Drawing.Size(802, 577);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -54,33 +57,35 @@
             this.tabPage1.Controls.Add(this.btUserMessage);
             this.tabPage1.Controls.Add(this.pbPageLoad);
             this.tabPage1.Controls.Add(this.tbUrl);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1061, 681);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(794, 551);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(8, 32);
-            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(27, 25);
+            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.webBrowser1.Location = new System.Drawing.Point(6, 26);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1043, 601);
+            this.webBrowser1.Size = new System.Drawing.Size(782, 488);
             this.webBrowser1.TabIndex = 34;
             // 
             // btUserMessage
             // 
-            this.btUserMessage.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btUserMessage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btUserMessage.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btUserMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btUserMessage.Location = new System.Drawing.Point(4, 641);
-            this.btUserMessage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btUserMessage.Location = new System.Drawing.Point(3, 521);
+            this.btUserMessage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btUserMessage.Name = "btUserMessage";
-            this.btUserMessage.Size = new System.Drawing.Size(1053, 36);
+            this.btUserMessage.Size = new System.Drawing.Size(790, 29);
             this.btUserMessage.TabIndex = 33;
             this.btUserMessage.Text = "btUserMessage";
             this.btUserMessage.UseVisualStyleBackColor = true;
@@ -88,32 +93,32 @@
             // pbPageLoad
             // 
             this.pbPageLoad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbPageLoad.Location = new System.Drawing.Point(901, 1);
-            this.pbPageLoad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbPageLoad.Location = new System.Drawing.Point(676, 1);
+            this.pbPageLoad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbPageLoad.Name = "pbPageLoad";
-            this.pbPageLoad.Size = new System.Drawing.Size(153, 23);
+            this.pbPageLoad.Size = new System.Drawing.Size(115, 19);
             this.pbPageLoad.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.pbPageLoad.TabIndex = 31;
             // 
             // tbUrl
             // 
-            this.tbUrl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tbUrl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbUrl.BackColor = System.Drawing.SystemColors.ControlLight;
             this.tbUrl.Location = new System.Drawing.Point(0, 0);
-            this.tbUrl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tbUrl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbUrl.Name = "tbUrl";
             this.tbUrl.ReadOnly = true;
-            this.tbUrl.Size = new System.Drawing.Size(895, 22);
+            this.tbUrl.Size = new System.Drawing.Size(672, 20);
             this.tbUrl.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1077, 710);
+            this.ClientSize = new System.Drawing.Size(808, 577);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "SurferForm2";
             this.tabControl1.ResumeLayout(false);
