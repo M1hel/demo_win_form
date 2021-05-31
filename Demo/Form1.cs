@@ -60,7 +60,8 @@ namespace Demo
             // 
             // tbUrl
             // 
-            tb.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             tb.BackColor = System.Drawing.SystemColors.ControlLight;
             tb.Location = new System.Drawing.Point(0, 0);
@@ -72,6 +73,9 @@ namespace Demo
             // 
             // webBrowser1
             // 
+            wb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
             wb.Location = new System.Drawing.Point(8, 32);
             wb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             wb.MinimumSize = new System.Drawing.Size(27, 25);
@@ -81,6 +85,8 @@ namespace Demo
             // 
             // btUserMessage
             // 
+            bt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
             bt.Dock = System.Windows.Forms.DockStyle.Bottom;
             bt.FlatStyle = System.Windows.Forms.FlatStyle.System;
             bt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
